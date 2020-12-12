@@ -1,16 +1,18 @@
-// function getIdentityMatrix(n) {
-//   const tmp = [...Array(n)].map(() => [...Array(n)]);
-//
-//   tmp.map((item) => item.map((it, i) => {
-//     if (it === undefined) {
-//       if (tmp.indexOf(item) === item.indexOf(it)) {
-//         item[i] = 1;
-//       } else {
-//         item[i] = 0;
-//       }
+// function Rectangle(width, height) {
+//   class Obj {
+//     constructor(width, height) {
+//       this.width = width;
+//       this.height = height;
 //     }
-//   }));
-//   console.log(tmp);
+//
+//     getArea() {
+//       return this.width * this.height;
+//     }
+//   }
+//
+//   const r = new Obj(width, height);
+//   console.log(r);
+//   return r;
 // }
 //
-// getIdentityMatrix(6);
+// Rectangle(20, 30);
