@@ -1,18 +1,6 @@
-// function Rectangle(width, height) {
-//   class Obj {
-//     constructor(width, height) {
-//       this.width = width;
-//       this.height = height;
-//     }
-//
-//     getArea() {
-//       return this.width * this.height;
-//     }
-//   }
-//
-//   const r = new Obj(width, height);
-//   console.log(r);
-//   return r;
+// function getAngleBetweenVectors(x1, y1, x2, y2) {
+//   const angle = Math.atan2(y2, x2) - Math.atan2(y1, x1);
+//   console.log(angle);
 // }
 //
-// Rectangle(20, 30);
+// getAngleBetweenVectors(0, -1, 1, 0);
