@@ -1,6 +1,13 @@
-// function getAngleBetweenVectors(x1, y1, x2, y2) {
-//   const angle = Math.atan2(y2, x2) - Math.atan2(y1, x1);
-//   console.log(angle);
+// function isTriangle(a, b, c) {
+//   const tmp = [a, b, c];
+//   let sum = 0;
+//   for (let i = 0; i < tmp.length; i += 1) {
+//     sum += tmp[i];
+//   }
+//   for (let j = tmp.length; j > 0; j -= 1) {
+//     if (tmp[j] >= sum - tmp[j]) {
+//       console.log('false');
+//     }
+//   }
 // }
-//
-// getAngleBetweenVectors(0, -1, 1, 0);
+// isTriangle(1, 2, 3);
